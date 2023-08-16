@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheetbg"
+    tools:context=".thirdfragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="About Superone"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="621dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The rise of cryptocurrency and its underlying technology
+                          blockchain represents a seismic shift in the finance, alt-finance
+and tech industries. Since cryptocurrencies operate
+independently from any central financial authority, they provide a
+payment avenue which the current financial powers cannot
+control.
+
+Cryptocurrency offers e-commerce businesses and traders a level
+of autonomy hitherto unavailable, and its use allows vendors not
+to worry about payment service providers locking out their
+money for one reason or another.
+
+Realizing that cryptocurrencies and blockchain technology are
+here to stay, financial institutions are looking to take advantage of
+them. Banks are slowly adapting to blockchain technology in
+order to help reduce the risk of online scams and fraudulent
+activity and facilitate their payments structure.
+
+Then there’s personal banking to consider. It’s estimated that
+around two billion people worldwide do not have, or cannot own
+a personal bank account. Shocked?
+
+Owning a cryptocurrency account will allow these affected people
+to transfer and receive payments without being subjected to
+online banking fraud, and in many cases without having to submit
+complex documentation to prove their identity.
+
+The citizens of countries with unstable or problematic
+governments have turned to blockchain and cryptocurrencies in
+an attempt to alleviate the problems that plague their
+institutional and banking systems.
+
+
+Meanwhile, in stable countries such as Kenya, 50% of commerce
+is already transacted through mobile phone credits. Services like
+these usually carry high service fees, so switching to digital
+currencies can save locals money, also giving them added
+security.
+
+Cryptocurrencies can be accessed from anywhere there is
+internet access and there are no restrictions differentiating
+international transfers from local payments. No longer will
+individuals or companies be required to pay frustratingly high
+fees simply to transfer funds between themselves.
+
+
+People who send money across international borders every
+month, often to support family members in another country, can
+save considerable amounts of money by using instant and low-fee
+transactions, even via mobile phone.
+
+Yes, crypto has its critics. Those against it point to the lack of
+regulation, its association with scams and cybercrime as the most
+obvious negatives.
+But put the evident advantages against the issues being ironed
+out, and one can see a clear future.
+
+Blockchain technology has certainly advanced enough to support
+online crypto-gaming platform SuperOne’s unique vision.
+The people behind this unique project have understood that
+crypto has matured enough for its consumers to deem it
+accessible and secure, and their specialized mobile gaming
+concepts are now ready to excite more than two billion millennial
+gamers and networkers of every age.
+
+In short, the huge technological advances of blockchain and
+crypto enable new, previously unseen business models to
+emerge. So, at the powerful crossroads of crypto tech, mobile
+gaming and networking, SuperOne has been created as the perfect
+solution to fill this incredibly potent point.
+
+It’s genuinely the very first solution of its kind. It is the world’s
+first platform to unify gaming, the business community, and blockchain
+hyperledger innovation.
+
+As one of the world’s first gaming and networking platform to
+operate entirely on the blockchain, SuperOne is also the single
+most exciting affiliate project.
+
+Welcome to the future of gaming with SuperOne"
+
+            />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

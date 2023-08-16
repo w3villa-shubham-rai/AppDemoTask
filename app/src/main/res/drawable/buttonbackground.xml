@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer background with stroke -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CAB275" /> <!-- Background color -->
+            <corners android:radius="40dp" /> <!-- Rounded corners radius -->
+
+        </shape>
+    </item>
+
+</layer-list>

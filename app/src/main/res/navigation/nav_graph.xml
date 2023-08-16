@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.fragement_container.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <dialog
+        android:id="@+id/firstfragement2"
+        android:name="com.example.fragement_container.firstfragement"
+        android:label="fragment_firstfragement"
+        tools:layout="@layout/fragment_firstfragement" >
+        <action
+            android:id="@+id/action_firstfragement2_to_secandfragement"
+            app:destination="@id/secandfragement" />
+        <action
+            android:id="@+id/action_firstfragement2_to_loginfragement"
+            app:destination="@id/loginfragement" />
+    </dialog>
+    <dialog
+        android:id="@+id/secandfragement"
+        android:name="com.example.fragement_container.secandfragement"
+        android:label="fragment_secandfragement"
+        tools:layout="@layout/fragment_secandfragement" >
+        <action
+            android:id="@+id/action_secandfragement_to_thirdfragement"
+            app:destination="@id/thirdfragement" />
+    </dialog>
+    <dialog
+        android:id="@+id/thirdfragement"
+        android:name="com.example.fragement_container.thirdfragement"
+        android:label="fragment_thirdfragement"
+        tools:layout="@layout/fragment_thirdfragement" />
+    <dialog
+        android:id="@+id/loginfragement"
+        android:name="com.example.fragement_container.Loginfragement"
+        android:label="fragment_login_regfragement"
+        tools:layout="@layout/fragment_login_regfragement" >
+        <action
+            android:id="@+id/action_loginfragement_to_registerfragment"
+            app:destination="@id/registerfragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/registerfragment"
+        android:name="com.example.fragement_container.Registerfragment"
+        android:label="fragment_registerfragment"
+        tools:layout="@layout/fragment_registerfragment" />
+</navigation>
